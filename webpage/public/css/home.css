@@ -1,0 +1,78 @@
+.main--h3 {
+    font-size: 2em;
+}
+
+.main--h1 {
+    font-size: 3em;
+}
+
+.main--me {
+    float: right;
+    margin-left: 2em;
+}
+
+.main--about-me {
+    clear: both;
+    display: flex;
+    width: 100%;
+    margin-top: 3rem;
+    /* margin: 3rem 0; */
+    /* clip-path: polygon(0% 0%, 0% 100%, 100% 0%, 100% 100%); */
+}
+
+.about-me {
+    background-color: rgba(145, 175, 255, 0.1);
+    display: block;
+    flex-basis: 50%;
+    padding: 2rem;
+    text-align: right;
+    /* transition: filter 1s ease; */
+}
+
+.about-me p {
+    width: auto;
+}
+
+.contact-info {
+    flex-basis: 50%;
+    background-color: rgba(219, 186, 103, 0.1);
+    display: block;
+    padding: 2rem;
+}
+
+.contact-info tr td:first-child {
+    padding-right: 2em;
+}
+
+#arrowDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* .about-me:hover{
+    filter: hue-rotate(90deg);
+} */
+
+#arrowDiv .arrow {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+@keyframes arrowin {
+	0% {
+		margin-left: 0px;
+	}
+	100% {
+		margin-left: calc(100% - 11rem);
+	}
+}
+
+@keyframes arrowout {
+	0% {
+		margin-left: calc(100% - 11rem);
+	}
+	100% {
+		margin-left: 0px;
+	}
+}

@@ -1,0 +1,57 @@
+/**
+ * Initiate the CSS base and reset/normalize some items.
+ */
+
+/**
+ * Apply a natural box layout model to all elements, but allowing components
+ * to change.
+ * https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+html {
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    line-height: var(--base-line-height);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* html {
+    line-height: var(--base-line-height);
+} */
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* .main {
+    margin: 0 auto;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+} */
+
+section, article {
+    margin: 0 auto;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;   
+}
+
+.btn {
+    border: 0px;
+    /* border-radius: 10px; */
+    background-color: var(--accent-color);
+    color: var(--alt-font-color);
+    width: 8rem;
+    cursor: pointer;
+    height: 3rem;
+    transition: filter 0.5s ease-in-out;
+}
+
+.btn:hover {
+    filter: brightness(85%);
+}

@@ -1,0 +1,27 @@
+/* --- Typografi och färg för webbplatsen --- */
+html {
+    font-size: 100%;
+    line-height: var(--base-line-height);
+}
+
+body {
+    background-color: var(--alt-backround-color);
+}
+
+p {
+    color: var(--font-color);
+    font-size: var(--base-font-size);
+    margin-bottom: var(--magic-number);
+    max-width: 64rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* endast tillfälligt */
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: var(--magic-number);
+}

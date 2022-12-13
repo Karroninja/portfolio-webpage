@@ -1,0 +1,48 @@
+/* 
+ * Style for send message
+ */
+
+.main--email {
+    width: 100%;
+    padding: 4em;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.main--email h1 {
+    font-size: 3em;
+}
+
+.email--form {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
+    gap: 1em;
+}
+
+.email--form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.email--form div:nth-of-type(1) { grid-area: 1 / 1 / 1 / 1; }
+.email--form div:nth-of-type(2) { grid-area: 1 / 2 / 1 / 2; }
+.email--form div:nth-of-type(3) { grid-area: 2 / 1 / 2 / 3; }
+.email--form div:nth-of-type(3) input { height: 150px; }
+
+.email--form div input {
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 5px;
+}
+
+.email--sumbit {
+    grid-area: 3 / 1 / 3 / 1;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0;
+}
+

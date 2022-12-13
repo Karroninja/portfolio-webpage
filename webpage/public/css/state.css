@@ -1,0 +1,109 @@
+
+/* settings for the typography */
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+/*---- settings for mobile --- */
+@media (max-width: 767px) {
+    * {
+        line-height: 1.5 !important;
+    }
+    
+    p,
+    table td,
+    a {
+        font-size: 1.1em;
+    } 
+
+    .fa-brands {
+        font-size: 1.8em;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .article img {
+        float: none;
+        order: 21;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+
+    .article h3 {
+        order: 1;
+    }
+
+    .article h1 {
+        order: 11;
+        text-align: center;
+    }
+
+    .article p {
+        order: 31;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .main--about-me {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        display: block !important;
+    }
+
+    .abilities-div .skills {
+        display: block !important;
+        padding: 0 !important;
+    }
+
+    .skills {
+        width: 100%;
+    }
+
+    .skills table {
+        width: 100%;
+        padding: 0 !important;
+        border-spacing: 0 1em;
+    }
+
+    .skills table tr {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .skills table tr td {
+        height: 2em;
+    }
+
+    .skills table tr td:first-child {
+        padding-right: 0 !important;
+    }
+
+    .skills .diamond {
+        display: contents;
+        font-size: 1.8em;
+    }
+
+    .projectdiv {
+        border: 0px !important;
+        padding: 2rem 0 !important;
+    }
+
+    .wrapper hr {
+        display: block !important;
+        height: 0.5px;
+        color: lightgray;
+    }
+
+    .projectdiv .projectimg {
+        height: auto;
+    }
+}
+
+

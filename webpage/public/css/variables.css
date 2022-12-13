@@ -1,0 +1,25 @@
+/* ---- CSS variables ---- */
+:root {
+    --background-color: #333;
+    --alt-backround-color: #feffff;
+    /* --nav-background: #647EDA; */
+    --nav-background: #6685DB;
+    /* --footer-background: #2d3c53; */
+    --footer-background: #17252a;
+    --font-color: #17252a;
+    --alt-font-color: #feffff;
+    /* --accent-color: #D97991; */
+    --accent-color: #8F7127;
+    /* --alt-accent-color-blue: rgb(78, 108, 217); */
+    --alt-accent-color-blue: rgb(145, 175, 255);
+    --alt-accent-color-green: rgb(89, 217, 107);
+    /* --alt-accent-color-yellow: rgb(217, 180, 78); */
+    --alt-accent-color-yellow: rgb(219, 186, 103);
+
+
+    --base-line-height: 1.4;
+    /* genom att sätta fonten till storleken em, tillåter vi användaren att kunna ändra via webbläsarens egna fontstorlekar. */
+    --base-font-size: 1em;
+    /* magic number används för att få ett enhetligt avstånd mellan styckena, en grundenhet */
+    --magic-number: calc(var(--base-line-height) * var(--base-font-size));
+}
