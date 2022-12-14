@@ -25,13 +25,31 @@
     .article {
         display: flex;
         flex-direction: column;
+        padding: 0;
+        padding-top: 6rem;
     }
 
-    .article img {
+    .main--h3 {
+        padding-left: 1rem;
+    }
+
+    .main--p {
+        padding: 1rem;
+    }
+
+    .main--me {
         float: none;
         order: 21;
-        margin: 0 auto;
+        margin: 0 auto !important;
         margin-bottom: 2em;
+    }
+
+    .main--about-me {
+        padding: 0;
+    }
+
+    .btn {
+        font-size: 1em;
     }
 
     .article h3 {

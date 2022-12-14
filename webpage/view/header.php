@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Karoline Lindroos">
     <meta name="description" content="Karoline Lindroos Portfolio">
-    <link rel="shortcut icon" href="\img\kl-logo-head1.svg"/>
+    <link rel="shortcut icon" href="\img\kl-logo-head.svg"/>
     <link rel="stylesheet" type="text/css" href="\css\style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,7 @@
 <body>
 <nav class="navbar">
     <div class="site-header">
-        <div class="logo">
+        <div class="logo">    
             <a href="./index.php">
                 <img src="\img\kl-logo.svg" alt="Logo KL">
             </a>

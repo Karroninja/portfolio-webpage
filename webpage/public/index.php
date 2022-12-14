@@ -5,10 +5,10 @@
 ?>
 <!-- <main class="main"> -->
 <article class="article">
-    <img src="img/jag.png" alt="image of me" width="400px" class="main--me"/>
+    <img src="img/jag.png" alt="image of me" class="main--me"/>
     <h3 class="main--h3">Hello!</h3>
     <h1 class="main--h1">I Am Karoline Lindroos</h1>
-    <p>Welcome to my resume, I am a student in modern web developing.</p>
+    <p class="main--p">Welcome to my resume, I am a student in modern web developing.</p>
 </article>
 <section class="main--about-me">
     <div class="contact-info">
@@ -43,9 +43,7 @@
         </p>
         <div id="arrowDiv">
             <span class="arrow">&#8594;</span>
-            <button clasS="btn">
-                <a href="\files/cv-karoline-lindroos.pdf" download>Download Resume</a>
-            </button>
+            <a href="\files/resume-english-karoline-lindroos.pdf" class="btn" role="button" download>Download Resume</a>
         </div>
     </div>
 </section>
@@ -111,6 +109,14 @@
                     <td class="diamond filled">&diams;</td>
                     <td class="diamond">&diams;</td>
                 </tr>
+                <tr>
+                    <th>Interaction Design</th>
+                    <td class="diamond filled">&diams;</td>
+                    <td class="diamond filled">&diams;</td>
+                    <td class="diamond filled">&diams;</td>
+                    <td class="diamond">&diams;</td>
+                    <td class="diamond">&diams;</td>
+                </tr>                
                 <tr>
                     <th>PDO</th>
                     <td class="diamond filled">&diams;</td>
@@ -245,11 +251,9 @@
             </div>
             <h2>Carl Barks Moving Memory Game</h2>
             <em>HTML | CSS | JavaScript | jQuery</em>
-            <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final webb project for the course “programming for the web” at Malmö University.</p>
+            <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University.</p>
             <div class="btn-div">
-                <button class="btn">
-                    <a href="\projects\memorygame/game.html">SITE</a>
-                </button>
+                <a href="\projects\memorygame/game.html" class="btn" role="button">SITE</a>
                 <!-- <button class="btn">
                     <a href="#">CODE</a>
                 </button> -->
@@ -264,9 +268,7 @@
             <em>HTML | CSS | JavaScript | jQuery | PHP | AJAX</em>
             <p>Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020.</p>
             <div class="btn-div">
-                <button class="btn">
-                    <a href="\projects\starcade/index.php">SITE</a>
-                </button>
+                <a href="\projects\starcade/index.php" class="btn" role="button">SITE</a>
                 <!-- <button class="btn">
                     <a href="#">CODE</a>
                 </button> -->
@@ -279,11 +281,9 @@
             </div>
             <h2>BMO</h2>
             <em>HTML | CSS | PHP | PDO | SQLite</em>
-            <p>BMO was the final project for the course "web technologies" at Blekinge Tekniska Högskola during autumn 2022.</p>
+            <p>BMO was the final project for the course "web technologies" at Bleking Institute of Technology during autumn 2022.</p>
             <div class="btn-div">
-                <button class="btn">
-                    <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php">SITE</a>
-                </button>
+                <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php" class="btn" role="button">SITE</a>
                 <!-- <button class="btn">
                     <a href="#">CODE</a>
                 </button> -->

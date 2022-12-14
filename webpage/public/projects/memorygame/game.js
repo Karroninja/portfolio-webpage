@@ -20,7 +20,7 @@ function creatGameHeader() {
     let klLogo = $('<img>').addClass("kl-logo").attr("src", "./desktop/kl-logo.png")
     let linkPortfolio = $('<a>').attr("href", "\/index.php")
 
-    let gameInfo = $('<div>').addClass('gameInfo').html('OBS! game is optimized for desktop! <br> game rules: turn over a card and try to find its partner!')
+    let gameInfo = $('<div>').addClass('gameInfo').html('Game rules: turn over a card and try to find its partner!')
     let headtime = $('<div>').addClass('headTime')
     let headLine = $('<h1>').html('Moving Memory Game')
     let time = $('<div>').addClass('time').html('Timer: ')

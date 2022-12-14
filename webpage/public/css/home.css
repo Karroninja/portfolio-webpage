@@ -9,6 +9,7 @@
 .main--me {
     float: right;
     margin-left: 2em;
+    width: 400px;
 }
 
 .main--about-me {
@@ -59,18 +60,22 @@
     font-weight: 900;
 }
 
+#arrowDiv .btn {
+    width: 9rem;
+}
+
 @keyframes arrowin {
 	0% {
 		margin-left: 0px;
 	}
 	100% {
-		margin-left: calc(100% - 11rem);
+		margin-left: calc(100% - 12rem);
 	}
 }
 
 @keyframes arrowout {
 	0% {
-		margin-left: calc(100% - 11rem);
+		margin-left: calc(100% - 12rem);
 	}
 	100% {
 		margin-left: 0px;
