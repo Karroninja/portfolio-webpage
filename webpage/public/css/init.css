@@ -41,15 +41,25 @@ section, article {
     padding-right: 1.5rem;   
 }
 
+.btn-div {
+    display: flex;
+    /* Ändra här sen när två knappar finns till space-between */
+    justify-content: end;
+}
+
 .btn {
     border: 0px;
     /* border-radius: 10px; */
     background-color: var(--accent-color);
     color: var(--alt-font-color);
-    width: 8rem;
+    width: 6rem;
     cursor: pointer;
     height: 3rem;
     transition: filter 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .btn:hover {
