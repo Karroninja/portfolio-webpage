@@ -1,17 +1,17 @@
 CV
 
 files/
-webpage/public/fontawesome/
-webpage/public/img/
+fontawesome/
+img/
 
-webpage/public/projects/starcade/script/
-webpage/public/projects/starcade/media/
-webpage/public/projects/starcade/config/
-webpage/public/projects/starcade/style/
-webpage/public/projects/starcade/php/assets/backupFile.json
-webpage/public/projects/starcade/php/assets/database.json
+starcade/script/
+starcade/media/
+starcade/config/
+starcade/style/
+starcade/php/assets/backupFile.json
+starcade/php/assets/database.json
 
-webpage/public/projects/memorygame/desktop/
-webpage/public/projects/memorygame/variables.css
-webpage/public/projects/memorygame/STIX2Text-Regular.otf
-webpage/public/projects/memorygame/data.js
+memorygame/desktop/
+memorygame/variables.css
+memorygame/STIX2Text-Regular.otf
+memorygame/data.js
