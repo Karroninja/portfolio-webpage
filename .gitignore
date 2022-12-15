@@ -7,11 +7,11 @@ img/
 **/starcade/script/
 **/starcade/media/
 **/starcade/config/
-*starcade/style/
-*starcade/php/assets/backupFile.json
-*starcade/php/assets/database.json
+**/starcade/style/
+**/starcade/php/assets/backupFile.json
+**/starcade/php/assets/database.json
 
-*memorygame/desktop/
-*memorygame/variables.css
-*memorygame/STIX2Text-Regular.otf
-*memorygame/data.js
+**/memorygame/desktop/
+**/memorygame/variables.css
+**/memorygame/STIX2Text-Regular.otf
+**/memorygame/data.js
