@@ -43,8 +43,7 @@ section, article {
 
 .btn-div {
     display: flex;
-    /* Ändra här sen när två knappar finns till space-between */
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .btn {

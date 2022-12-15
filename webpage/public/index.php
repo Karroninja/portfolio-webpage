@@ -32,7 +32,7 @@
             <tr>
                 <td>Email</td>
                 <td>:</td>
-                <td>lindrooskaroline@gmail.com</td>
+                <td>hello@klindroos.se</td>
             </tr>
         </table>
     </div>
@@ -254,9 +254,7 @@
             <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University.</p>
             <div class="btn-div">
                 <a href="\projects\memorygame/game.html" class="btn" role="button">SITE</a>
-                <!-- <button class="btn">
-                    <a href="#">CODE</a>
-                </button> -->
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/memorygame" class="btn" role="button">CODE</a>
             </div>
         </div>
         <hr>
@@ -269,9 +267,7 @@
             <p>Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020.</p>
             <div class="btn-div">
                 <a href="\projects\starcade/index.php" class="btn" role="button">SITE</a>
-                <!-- <button class="btn">
-                    <a href="#">CODE</a>
-                </button> -->
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/starcade" class="btn" role="button">CODE</a>
             </div>
         </div>
         <hr>
