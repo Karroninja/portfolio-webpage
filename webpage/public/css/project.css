@@ -1,23 +1,11 @@
-
-/* .projects { */
-    /* display: grid; */
-    /* width: 100%; */
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto; */
-    /* gap: 2em; */
-    
-    /* background-color: aliceblue; */
-    /* max-width: none; */
-/* } */
-
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    align-content: center;
     margin: 0 auto;
     max-width: 67rem;
-    /* padding-left: 1.5rem;
-    padding-right: 1.5rem; */
+    gap: 2rem;
 }
 
 .wrapper h1 {
@@ -27,11 +15,32 @@
 }
 
 .projectdiv {
+    max-width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2rem;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.4s ease-in;
+    /* box-shadow: 5px 10px rgba(211, 211, 211, 0.3); */
+    /* padding: 1rem; */
 }
+
+.projectdiv a {
+    text-decoration: none;
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectdiv a h2,
+.projectdiv a em,
+.projectdiv a p {
+    text-align: center;
+    padding: 0 1rem;
+}
+
 
 .projectdiv button:last-of-type {
     float: right;
@@ -41,68 +50,40 @@
     width: 100%;
     height: 200px;
     overflow: hidden;
-    /* display: flex;
-    justify-content: center; */
-    overflow: hidden;
-    /* margin: 0 auto; */
-    /* min-height: 13rem; */
-    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .projectimg img {
-    width: 100%;
-    /* margin: -10px 0px 0px 0px; */
-    /* height: 100%; */
-    /* margin: -150px 0px 0px -150px; */
-    transition: transform 1s ease-in-out;
+    max-width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
 }
 
-.wrapper hr {
+/* .wrapper hr {
     display: none;
+} */
+
+/* .projectimg:hover img { */
+.projectdiv:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.3);
 }
 
-.projectimg:hover img {
-    transform: scale(1.2, 1.2);
+.projectdiv a:hover img {
+    transform: scale(1.1, 1.1);
 }
 
 .carlbarks, .starcade {
     border-right: 1px solid lightgray;
 }
 
-/* .main--projectDiv {
-    border: 1px solid white;
-    width: 100%;
-    height: 17rem;
-    margin: 2em;
-    border-radius: 20px;
-    overflow: hidden;
+.btn-div {
+    padding: 1rem;
 }
 
-.main--projectDiv h2 {
-    padding: 1em;
-    margin: 0;
-    text-align: center;
-}
-
-.main--projectDiv p {
-    padding: 0 1em 1em 1em;
-}
-
-.main--projectDiv .projectImg--left {
-    margin-right: 2em;
-    height: 100%;
-    float: left;
-}
-
-.main--projectDiv .projectImg--right {
-    margin-left: 2em;
-    height: 100%;
-    float: right;
-} */
-
-.btn a {
+.projectdiv .btn {
     text-decoration: none;
     color: var(--alt-font-color);
-    height: 100%;
-    width: 100%;
+    border-radius: 0.5rem;
+    /* height: 100%;
+    width: 100%; */
 }
