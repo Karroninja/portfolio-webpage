@@ -37,10 +37,6 @@
     table td,
     a {
         font-size: 1.1em;
-    } 
-
-    .fa-brands {
-        font-size: 1.8em;
     }
 
     .article {
@@ -97,6 +93,7 @@
     .abilities .abilities-div .tools,
     .abilities .abilities-div .languages {
         grid-template-columns: 1fr;
+        padding: unset;
     }
 
     .abilities .skills h2,
@@ -112,7 +109,7 @@
     .abilities .skill-div .lang-ex {
         font-size: unset;
     }
-    
+
     .abilities .diamond {
         font-size: 1.8em;
     }
@@ -133,6 +130,15 @@
 
     .projectdiv .projectimg {
         height: auto;
+    }
+
+    /* ----- Footer ------ */   
+    .footer .copy {
+        font-size: 1em;
+    } 
+
+    .footer .fa-brands {
+        margin-left: unset;
     }
 }
 

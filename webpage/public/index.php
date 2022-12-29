@@ -176,16 +176,6 @@
                 </div>
             </div>
             <div class="skill-div">
-                <span>Pico</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
                 <span>Node.js</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
@@ -226,6 +216,16 @@
                 </div>
             </div>
             <div class="skill-div">
+                <span>Markdown</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
                 <span>React.js</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
@@ -237,6 +237,16 @@
             </div>
             <div class="skill-div">
                 <span>Python</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>npm</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond">&diams;</span>
@@ -269,16 +279,6 @@
                 </div>
             </div>
             <div class="skill-div">
-                <span>Mac Terminal</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
                 <span>Wordpress</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
@@ -289,7 +289,7 @@
                 </div>
             </div>
             <div class="skill-div">
-                <span>Brackets</span>
+                <span>Mac Terminal</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
@@ -305,6 +305,16 @@
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Brackets</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
                     <span class="diamond">&diams;</span>
                 </div>
             </div>
@@ -330,6 +340,16 @@
             </div>
             <div class="skill-div">
                 <span>Cyberduck</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Pico</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
