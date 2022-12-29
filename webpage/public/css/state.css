@@ -7,13 +7,23 @@
 }
 
 /*---- settings for mobile --- */
-@media (max-width: 900px) and (min-width: 768px) {
-    .projects .wrapper {
+@media (max-width: 950px) and (min-width: 768px) {
+    .projects .wrapper,
+    .abilities .abilities-div .skills, 
+    .abilities .abilities-div .tools,
+    .abilities .abilities-div .languages {
         grid-template-columns: 1fr 1fr;
     }
 
-    .projects .wrapper h1 {
+    .projects .wrapper h1,
+    .abilities .skills h2,
+    .abilities .tools h2,
+    .abilities .languages h2 {
         grid-column: span 2;
+    }
+
+    .abilities .skill-div .lang-ex {
+        font-size: unset;
     }
 }
 
@@ -82,43 +92,32 @@
         flex-direction: column;
     }
 
-    .abilities-div .skills {
-        display: block !important;
-        padding: 0 !important;
+    /* ----- Abilities ----- */
+    .abilities .abilities-div .skills, 
+    .abilities .abilities-div .tools,
+    .abilities .abilities-div .languages {
+        grid-template-columns: 1fr;
     }
 
-    .skills {
-        width: 100%;
+    .abilities .skills h2,
+    .abilities .tools h2,
+    .abilities .languages h2 {
+        grid-column: span 1;
     }
 
-    .skills table {
-        width: 100%;
-        padding: 0 !important;
-        border-spacing: 0 1em;
+    .abilities .skill-div {
+        padding: 0.1em 0;
     }
 
-    .skills table tr {
-        display: flex;
-        justify-content: space-between;
+    .abilities .skill-div .lang-ex {
+        font-size: unset;
     }
-
-    .skills table tr td {
-        height: 2em;
-    }
-
-    .skills table tr td:first-child {
-        padding-right: 0 !important;
-    }
-
-    .skills .diamond {
-        display: contents;
+    
+    .abilities .diamond {
         font-size: 1.8em;
     }
 
-    /* .projectdiv {
-        padding: 2rem 0 !important;
-    } */
-
+    /* ----- Projects ------ */
     .projectdiv.carlbarks,
     .projectdiv.bmo {
         margin: 0 0 auto auto;
@@ -131,12 +130,6 @@
     .projects .wrapper h1 {
         grid-column: span 1;
     }
-
-    /* .wrapper hr {
-        display: block !important;
-        height: 0.5px;
-        color: lightgray;
-    } */
 
     .projectdiv .projectimg {
         height: auto;

@@ -55,194 +55,353 @@
         <h1>Abilities</h1>
         <div class="skills">
             <h2>Skills</h2>
-            <table>
-                <tr>
-                    <th>HTML 5</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                </tr>
-                <tr>
-                    <th>CSS 3</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                </tr>
-                <tr>
-                    <th>jQuery</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>JavaScript</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>PHP</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Responsive Design</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>                
-                <tr>
-                    <th>SASS / SCSS</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Interaction Design</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>                
-                <tr>
-                    <th>PDO</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>JSON</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>SQL / SQLite</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Pico</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Git / Github</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Node.js</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Java</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>C#</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>C</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>React.js</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-                <tr>
-                    <th>Python</th>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-            </table>
+            <div class="skill-div">
+                <span>HTML 5</span>
+                <div class="diamond-div">
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>CSS 3</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>jQuery</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>JavaScript</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>PHP</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Responsive Design</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>SASS / SCSS</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Interaction Design</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Git / Github</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>PDO</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>JSON</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>SQL / SQLite</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Pico</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Node.js</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Java</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>C#</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>C</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>React.js</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Python</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
         </div>
-        <!-- <div class="language">
+        <div class="tools">
+            <h2>Tools</h2>
+            <div class="skill-div">
+                <span>VS Code</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Macbook Air</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Mac Terminal</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Wordpress</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Brackets</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Illustrator</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Photoshop</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Adobe XD</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Cyberduck</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Indesign</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+        </div>
+        <div class="languages">
             <h2>Languages</h2>
-            <table>
-                <tr>
-                    <td>Swedish</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                </tr>
-                <tr>
-                    <td>English</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td>Norwegian</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond filled">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                    <td class="diamond">&diams;</td>
-                </tr>
-            </table>
-        </div> -->
+            <div class="skill-div">
+                <span class="lang-ex">Swedish (moder tongue)</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>English (fluent)</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span class="lang-ex">Norwegian (comprehend)</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Danish (partial)</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Spanish (partial)</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="projects" id="projects">
@@ -255,7 +414,7 @@
                 </div>
                 <h2>Consult</h2>
                 <em>HTML | CSS | SASS | JavaScript | PHP</em>
-                <p>Consult was the final project for the course "web design & usability" at Bleking Institute of Technology during autumn 2022.</p>
+                <p>Consult was the final project for the course "web design & usability" at Blekinge Institute of Technology during autumn 2022.</p>
             </a>
             <div class="btn-div">
                 <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/" class="btn" role="button">SITE</a>
@@ -299,7 +458,7 @@
                 </div>
                 <h2>BMO</h2>
                 <em>HTML | CSS | PHP | PDO | SQLite</em>
-                <p>BMO was the final project for the course "web technologies" at Bleking Institute of Technology during autumn 2022.</p>
+                <p>BMO was the final project for the course "web technologies" at Blekinge Institute of Technology during autumn 2022.</p>
             </a>
             <div class="btn-div">
                 <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php" class="btn" role="button">SITE</a>
