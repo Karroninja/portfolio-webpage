@@ -25,7 +25,6 @@
 .fa-brands {
     font-size: 1.5em;
     margin-left: .5em;
-    /* margin-bottom: var(--magic-number); */
     transition: color 1s ease;
 }
 
@@ -35,8 +34,4 @@
 
 .footer div {
     margin-bottom: var(--magic-number);
-    /* height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center; */
 }

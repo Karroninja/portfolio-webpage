@@ -46,13 +46,13 @@
         </p>
         <div id="arrowDiv">
             <span class="arrow">&#8594;</span>
-            <a href="\files/resume-english-karoline-lindroos.pdf" class="btn" role="button" download>Download Resume</a>
+            <a href="\files/resume-karoline-lindroos.pdf" class="btn" role="button" download>Download Resume</a>
         </div>
     </div>
 </section>
 <section class="abilities" id="abilities">
     <div class="wrapper abilities-div">
-        <h1>Abilities</h1>
+        <h1 class="title">Abilities</h1>
         <div class="skills">
             <h2>Skills</h2>
             <div class="skill-div">
@@ -359,6 +359,16 @@
                 </div>
             </div>
             <div class="skill-div">
+                <span>Google Lighthouse</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
                 <span>Indesign</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
@@ -426,7 +436,7 @@
 </section>
 <section class="projects" id="projects">
     <div class="wrapper">
-        <h1>Projects</h1>
+        <h1 class="title">Projects</h1>
         <div class="projectdiv consult">
             <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/">
                 <div class="projectimg">

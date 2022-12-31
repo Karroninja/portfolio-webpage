@@ -1,4 +1,4 @@
-/* --- Typografi och färg för webbplatsen --- */
+/* --- Typography for the webpage --- */
 html {
     font-size: 100%;
     line-height: var(--base-line-height);
@@ -6,6 +6,10 @@ html {
 
 body {
     background-color: var(--alt-backround-color);
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -21,7 +25,20 @@ h3,
 h4,
 h5,
 h6 {
-    /* endast tillfälligt */
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Raleway", sans-serif;
     margin-bottom: var(--magic-number);
+}
+
+.title,
+.main--h1 {
+    font-family: "Playfair Display";
+}
+
+.main--h1 {
+    font-size: 3em;
+}
+
+.main--h3 {
+    font-size: 2em;
+    font-family: "Raleway", sans-serif;
 }

@@ -18,27 +18,20 @@ html {
     box-sizing: inherit;
 }
 
-/* html {
-    line-height: var(--base-line-height);
-} */
-
 body, html {
     margin: 0;
     padding: 0;
 }
-
-/* .main {
-    margin: 0 auto;
-    max-width: 67rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-} */
 
 section, article {
     margin: 0 auto;
     max-width: 67rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;   
+}
+
+.article {
+    padding-top: 6rem;
 }
 
 .btn-div {
@@ -48,7 +41,6 @@ section, article {
 
 .btn {
     border: 0px;
-    /* border-radius: 10px; */
     background-color: var(--accent-color);
     color: var(--alt-font-color);
     width: 6rem;
@@ -59,6 +51,7 @@ section, article {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    font-size: 0.9em;
 }
 
 .btn:hover {

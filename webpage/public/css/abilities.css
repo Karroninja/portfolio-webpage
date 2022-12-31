@@ -8,7 +8,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column: span 3;
     display: grid;
-    padding: 2rem;
     gap: 0 6em;
 }
 
@@ -27,8 +26,12 @@
     padding: 0.2em 0;
 }
 
+.skill-div * {
+    font-family: "Raleway", sans-serif;
+}
+
 .skill-div .lang-ex {
-    font-size: 1.3vw;
+    font-size: 1.2vw;
 }
 
 .skill-div:hover .diamond {

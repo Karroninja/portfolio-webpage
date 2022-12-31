@@ -46,15 +46,15 @@
         padding-top: 6rem;
     }
 
-    .main--h3 {
+    .article .main--h3 {
         padding-left: 1rem;
     }
 
-    .main--p {
+    .article .main--p {
         padding: 1rem;
     }
 
-    .main--me {
+    .article .main--me {
         float: none;
         order: 21;
         margin: 0 auto !important;

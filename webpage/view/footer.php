@@ -12,5 +12,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="script/animations.js" type="text/javascript"></script>
 <script src="script/navigation.js" type="text/javascript"></script>
+<script src="script/onload.js" type="text/javascript"></script>
 </body>
 </html>
