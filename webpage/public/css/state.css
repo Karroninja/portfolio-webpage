@@ -1,0 +1,145 @@
+
+/* settings for the typography */
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+/*---- settings for mobile --- */
+@media (max-width: 950px) and (min-width: 768px) {
+    .projects .wrapper,
+    .abilities .abilities-div .skills, 
+    .abilities .abilities-div .tools,
+    .abilities .abilities-div .languages {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects .wrapper h1,
+    .abilities .skills h2,
+    .abilities .tools h2,
+    .abilities .languages h2 {
+        grid-column: span 2;
+    }
+
+    .abilities .skill-div .lang-ex {
+        font-size: unset;
+    }
+}
+
+/*---- settings for mobile --- */
+@media (max-width: 767px) {
+    * {
+        line-height: 1.5 !important;
+    }
+    
+    p,
+    table td,
+    a {
+        font-size: 1.1em;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 6rem;
+    }
+
+    .article .main--h3 {
+        padding-left: 1rem;
+    }
+
+    .article .main--p {
+        padding: 1rem;
+    }
+
+    .article .main--me {
+        float: none;
+        order: 21;
+        margin: 0 auto !important;
+        margin-bottom: 2em;
+    }
+
+    .main--about-me {
+        padding: 0;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+
+    .article h3 {
+        order: 1;
+    }
+
+    .article h1 {
+        order: 11;
+        text-align: center;
+    }
+
+    .article p {
+        order: 31;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .main--about-me {
+        flex-direction: column;
+    }
+
+    /* ----- Abilities ----- */
+    .abilities .abilities-div .skills, 
+    .abilities .abilities-div .tools,
+    .abilities .abilities-div .languages {
+        grid-template-columns: 1fr;
+        padding: unset;
+    }
+
+    .abilities .skills h2,
+    .abilities .tools h2,
+    .abilities .languages h2 {
+        grid-column: span 1;
+    }
+
+    .abilities .skill-div {
+        padding: 0.1em 0;
+    }
+
+    .abilities .skill-div .lang-ex {
+        font-size: unset;
+    }
+
+    .abilities .diamond {
+        font-size: 1.8em;
+    }
+
+    /* ----- Projects ------ */
+    .projectdiv.carlbarks,
+    .projectdiv.bmo {
+        margin: 0 0 auto auto;
+    }
+
+    .projects .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .projects .wrapper h1 {
+        grid-column: span 1;
+    }
+
+    .projectdiv .projectimg {
+        height: auto;
+    }
+
+    /* ----- Footer ------ */   
+    .footer .copy {
+        font-size: 1em;
+    } 
+
+    .footer .fa-brands {
+        margin-left: unset;
+    }
+}
+
+

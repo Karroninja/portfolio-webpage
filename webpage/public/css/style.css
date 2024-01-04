@@ -1,0 +1,17 @@
+/*
+ * The stylesheet for this website.
+ */
+
+@import "./variables.css";
+@import "./typography.css";
+@import "./state.css";
+@import "./init.css";
+@import "./navbar.css";
+@import "./about.css";
+@import "./project.css";
+@import "./abilities.css";
+@import "./footer.css";
+@import "./normalize.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Noto+Sans+Georgian&family=Open+Sans&family=Playfair+Display&family=Raleway&display=swap');
+
