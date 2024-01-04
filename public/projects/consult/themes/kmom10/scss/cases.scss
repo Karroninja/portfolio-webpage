@@ -1,0 +1,30 @@
+.wrap-cases {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 3em;
+    
+    h2 {
+        margin-top: 1em;
+        font-size: 1.2em;
+    }
+
+    .img-box {
+        position: relative;
+        border-radius: $border-radius-img 0 $border-radius-img 0;
+        overflow: hidden;
+    }
+
+    .img-box h1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0.3em;
+        margin: 0;
+        z-index: 1;
+        font-size: 4em;
+        color: $font-color-alternate;
+        text-shadow: -0.3px 0.3px 0 $font-color, 0.3px 0.3px 0 $font-color, 0.3px -0.3px 0 $font-color, -0.3px -0.3px 0 $font-color;
+    }
+}

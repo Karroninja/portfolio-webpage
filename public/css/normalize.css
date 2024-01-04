@@ -1,0 +1,12 @@
+/**
+* Parts from
+* https://github.com/necolas/normalize.css/blob/master/normalize.css
+*/
+
+html {
+    line-height: var(--base-line-height);
+}
+
+body, html {
+    margin: 0;
+}

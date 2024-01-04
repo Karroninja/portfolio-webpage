@@ -1,0 +1,21 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'mixin';
+@import 'base';
+@import 'typography';
+@import 'blockquotes';
+@import 'code';
+@import 'navbar';
+@import 'animation';
+@import 'home';
+@import 'cases';
+@import 'footer';
+@import 'state';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Sans+Georgian&family=Noto+Serif+Georgian&family=Nunito&family=Open+Sans&family=Roboto&display=swap');
+

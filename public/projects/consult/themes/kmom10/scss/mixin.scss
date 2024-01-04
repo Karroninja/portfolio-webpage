@@ -1,0 +1,17 @@
+@mixin style-inner-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $margin-equal;
+}
+
+@mixin default-navbar {
+    background-color: $background-color;
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    z-index: 2;
+}

@@ -1,0 +1,45 @@
+<div {% if meta.title == "Home" %} class="header" {% else %} class="banner" {% endif %} role="banner">
+    <div class="site-header">
+        {% if ( pages["_meta"].meta.logo ) %}
+        <div class="logo">
+            <a href="{{ base_url }}">
+                {% if config.session.theme == "dark" %}
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.LogoDark|url }}" alt="logo" />
+                {% else %}
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
+                {% endif %}
+            </a>
+        </div>
+        {% endif %}
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
+            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+            <span class="sr-only">Toggle Menu</span>
+        </a>
+    </div>
+    <div class="navbar">
+        <div id="nav" role="navigation" tabindex="-1">
+            <ul>
+                {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                        <a href="{{ page.url }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <h1 {% if meta.title == "Home" %} class="headline" {% else %} class="hidden" {% endif %}>Expert consulting for your business - from strategy to execution, we've got you covered</h1>
+    <div {% if meta.title == "Home" %} class="pointingdown" {% else %} class="hidden" {% endif %}>
+        <a href="#section">
+            <img src="{{ base_url }}/assets/img/down.svg" alt="arrow pointing down">
+        </a>
+    </div>
+    <picture {% if meta.title == "Home" %} class="flashpic" {% else %} class="hidden" {% endif %}>
+        {% if config.session.theme == "dark" %}
+            <source media="(min-width: 800px)" srcset="{{base_url}}/image/pexels-cottonbro-studio.jpg?q=30&w=40%">
+            <img src="{{ base_url }}/image/pexels-cottonbro-studio.jpg?q=30&w=40%" alt="flash picture">
+        {% else %}
+            <source media="(min-width: 800px)" srcset="{{base_url}}/image/business-meeting.jpg?q=30&w=40%">
+            <img src="{{ base_url }}/image/business-meeting.jpg?q=30&w=40%" alt="flash picture">
+        {% endif %}
+    </picture>
+</div>

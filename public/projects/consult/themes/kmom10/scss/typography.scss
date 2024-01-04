@@ -1,0 +1,37 @@
+html {
+    font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-title, sans-serif;
+}
+
+* {
+    color: $font-color;
+    font-family: $font-paragraph, sans-serif;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+}
+
+.fab,
+.fas {
+    font-size: 1.5em;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}

@@ -1,0 +1,29 @@
+$font-color: #3c3c3c;
+$font-color-alternate: #f8f8ff;
+$font-size-headline: 2.6em;
+$headline-shadow: 1.1px 1.1px $font-color;
+$background-color: #f8f8ff;
+$accent-color: #0ff;
+$accent-color-silver: #c0c0c0;
+$background-color-footer: #3c3c3c;
+$background-color-team: rgba(20, 107, 204, 0.1);
+$border-radius-team: 50%;
+$border-radius-button: 20px;
+$border-radius-img: 100px;
+$img-filter: contrast(90%) brightness(115%);
+$code: #333;
+
+$font-paragraph: 'Georgian';
+$font-title: 'Didot';
+
+$font-oswald: 'Oswald';
+$font-opensans: 'Open Sans';
+$font-roboto: 'Roboto';
+$font-nunito: 'Nunito';
+$font-lato: 'Lato';
+$font-montserrat: 'Montserrat';
+
+$margin-equal: 4rem;
+$base-line-height: 1.4;
+$base-font-size: 1em;
+$magic-number: $base-line-height * $base-font-size;
