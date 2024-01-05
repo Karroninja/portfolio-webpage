@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+.footer .copy {
+    font-size: 0.8em;
+}
+
 .footer p, .fa-brands {
     color: var(--alt-font-color);
 }
@@ -30,7 +34,7 @@
 
 .fa-brands:hover {
     color: var(--accent-color);
-} 
+}
 
 .footer div {
     margin-bottom: var(--magic-number);

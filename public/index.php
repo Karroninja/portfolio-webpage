@@ -417,20 +417,6 @@
 <section class="projects" id="projects">
     <div class="wrapper">
         <h1 class="title">Projects</h1>
-        <div class="projectdiv movies">
-            <a href="\projects\movies/index.html" target="_blank">
-                <div class="projectimg">
-                    <img src="\img/movies.jpg" alt="Screenshot Consult">
-                </div>
-                <h1>Movies</h1>
-                <p class="technologies">React | Html | CSS | API</p>
-                <p>This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and enjoy a seamless integration with Spotify to enhance their overall experience.</p>
-            </a>
-            <div class="btn-div">
-                <a href="\projects\movies/index.html" class="btn" role="button" target="_blank">SITE</a>
-                <!-- <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/starcade" class="btn" role="button">CODE</a> -->
-            </div>
-        </div>
         <div class="projectdiv consult">
             <a href="\projects\consult/index.php" target="_blank">
                 <div class="projectimg">
@@ -442,7 +428,21 @@
             </a>
             <div class="btn-div">
                 <a href="\projects\consult/index.php" class="btn" role="button" target="_blank">SITE</a>
-                <!-- <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/starcade" class="btn" role="button">CODE</a> -->
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/consult" class="btn" role="button">CODE</a>
+            </div>
+        </div>
+        <div class="projectdiv movies">
+            <a href="\projects\movies/index.html" target="_blank">
+                <div class="projectimg">
+                    <img src="\img/movies.jpg" alt="Screenshot Consult">
+                </div>
+                <h1>Movies</h1>
+                <p class="technologies">React | Html | CSS | API</p>
+                <p>This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
+            </a>
+            <div class="btn-div">
+                <a href="\projects\movies/index.html" class="btn" role="button" target="_blank">SITE</a>
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" class="btn" role="button">CODE</a>
             </div>
         </div>
         <div class="projectdiv carlbarks">
@@ -452,11 +452,11 @@
                 </div>
                 <h1>Carl Barks Moving Memory Game</h1>
                 <p class="technologies">HTML | CSS | JavaScript | jQuery</p>
-                <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University. I was responsible for both conceptualizing and coding the game.</p>
+                <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University. I was responsible for both conceptualizing and coding the game. Get set for a memory game where the cards are always on the move!</p>
             </a>
             <div class="btn-div">
                 <a href="\projects\memorygame/game.html" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/memorygame" class="btn" role="button" target="_blank">CODE</a>
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/memorygame" class="btn" role="button" target="_blank">CODE</a>
             </div>
         </div>
         <!-- <hr> -->
@@ -467,11 +467,11 @@
                 </div>
                 <h1>Starcade</h1>
                 <p class="technologies">HTML | CSS | JavaScript | jQuery | PHP | AJAX</p>
-                <p>Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020. I had responsibility for the PHP backend development.</p>
+                <p>Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020. I had responsibility for the PHP backend development. Step into our arcade wonderland.</p>
             </a>
             <div class="btn-div">
                 <a href="\projects\starcade/index.php" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/webpage/public/projects/starcade" class="btn" role="button" target="_blank">CODE</a>
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/starcade" class="btn" role="button" target="_blank">CODE</a>
             </div>
         </div>
         <!-- <hr> -->

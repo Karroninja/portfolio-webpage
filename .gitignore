@@ -10,8 +10,8 @@ public/files/
 public/img/
 public/fontawesome/
 projects/consult/.vscode/
-projects/consult/assets/
-projects/consult/cache/
+public/projects/consult/assets/
+public/projects/consult/cache/
 projects/consult/config/
 projects/consult/content/docs/
 projects/consult/content/_meta.md

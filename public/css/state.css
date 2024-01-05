@@ -135,12 +135,10 @@
 
     /* ----- Footer ------ */
     .footer .copy {
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .footer .fa-brands {
         margin-left: unset;
     }
 }
-
-
