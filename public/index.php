@@ -229,7 +229,7 @@
                 <span>React.js</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
                     <span class="diamond">&diams;</span>
                     <span class="diamond">&diams;</span>
                     <span class="diamond">&diams;</span>
@@ -265,7 +265,7 @@
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
                 </div>
             </div>
             <div class="skill-div">
@@ -284,17 +284,7 @@
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
                     <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>Mac Terminal</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
                     <span class="diamond">&diams;</span>
                 </div>
             </div>
@@ -305,6 +295,16 @@
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Mac Terminal</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
                     <span class="diamond">&diams;</span>
                 </div>
             </div>
@@ -369,6 +369,16 @@
                 </div>
             </div>
             <div class="skill-div">
+                <span>Figma</span>
+                <div>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                    <span class="diamond">&diams;</span>
+                </div>
+            </div>
+            <div class="skill-div">
                 <span>Indesign</span>
                 <div>
                     <span class="diamond filled">&diams;</span>
@@ -418,7 +428,8 @@
     <div class="wrapper">
         <h1 class="title">Projects</h1>
         <div class="projectdiv consult">
-            <a href="\projects\consult/index.php" target="_blank">
+            <!-- <a href="\projects\consult/index.php" target="_blank"> -->
+            <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/" target="_blank">
                 <div class="projectimg">
                     <img src="\img/consult.jpg" alt="Screenshot Consult">
                 </div>
@@ -427,8 +438,9 @@
                 <p>Consult was the final project for the course "web design & usability" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
             </a>
             <div class="btn-div">
-                <a href="\projects\consult/index.php" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/consult" class="btn" role="button">CODE</a>
+                <!-- <a href="\projects\consult/index.php" class="btn" role="button" target="_blank">SITE</a> -->
+                <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/" class="btn" role="button" target="_blank">SITE</a>
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/consult" class="btn" role="button" target="_blank">CODE</a>
             </div>
         </div>
         <div class="projectdiv movies">
@@ -442,7 +454,7 @@
             </a>
             <div class="btn-div">
                 <a href="\projects\movies/index.html" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" class="btn" role="button">CODE</a>
+                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" class="btn" role="button" target="_blank">CODE</a>
             </div>
         </div>
         <div class="projectdiv carlbarks">

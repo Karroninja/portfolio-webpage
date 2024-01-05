@@ -69,9 +69,26 @@ public/ <br>
 | | |-- js/ <br>
 | | | |-- script.js <br>
 | |-- starcade/ <br>
-
-| | | |-- script.js <br>
-
+| | |-- index.php <br>
+| | |-- php/ <br>
+| | | |-- admin/ <br>
+| | | | |-- friendreceiver.php <br>
+| | | | |-- login.php <br>
+| | | | |-- logout.php <br>
+| | | | |-- receiver.php <br>
+| | | |-- assets/ <br>
+| | | | |-- api.php <br>
+| | | | |-- functions.php <br>
+| | | |-- sections/ <br>
+| | | | |-- header.php <br>
+| | | |-- aboutus.php <br>
+| | | |-- commonspace.php <br>
+| | | |-- friends.php <br>
+| | | |-- gamecorner.php <br>
+| | | |-- gamescreen.php <br>
+| | | |-- myspace.php <br>
+| | | |-- register.php <br>
+| | | |-- worldranking.php <br>
 |-- view/ <br>
 | |-- footer.php <br>
 | |-- header.php <br>
