@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+# Ignore system
+.DS_Store
+
+<<<<<<< HEAD
+# Ignore images, db, fontawesome, node-modules, packages etc
+.vscode/
+config/
+public/files/
+public/img/
+public/fontawesome/
+projects/consult/.vscode/
+projects/consult/assets/
+projects/consult/cache/
+projects/consult/config/
+projects/consult/content/docs/
+projects/consult/content/_meta.md
+projects/consult/content/404.md
+projects/consult/content/report.md
+projects/consult/themes/example/
+projects/consult/themes/js/
+projects/consult/themes/node_modules/
+projects/consult/themes/shared/
+projects/consult/themes/.stylelintrc.json
+projects/consult/themes/package.json
+projects/consult/themes/package-lock.json
+projects/consult/vendor/
+projects/consult/.htaccess
+projects/consult/composer.json
+projects/consult/composer.lock
+projects/memorygame/STIX2Text-Regular.otf
+projects/memorygame/desktop/
+projects/memorygame/data.js
+projects/movies/fontawesome/
+projects/movies/images/
+projects/movies/js/react-dom.js
+projects/movies/js/react-dom.min.js
+projects/movies/js/react.min.js
+projects/movies/js/react.js
+projects/starcade/config/
+projects/starcade/media/
+projects/starcade/config/
+projects/starcade/style/
+projects/starcade/php/backupFile.json
+projects/starcade/php/databse.json
