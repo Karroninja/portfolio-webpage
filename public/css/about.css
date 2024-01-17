@@ -13,7 +13,10 @@
 }
 
 .about-me {
-    background-color: rgba(145, 175, 255, 0.1);
+    /* background-color: rgba(145, 175, 255, 0.1); */
+    /* background-color: rgba(23, 37, 42, 0.1); */
+    background-color: rgba(176, 155, 58, 0.1);
+    /* color: white; */
     display: block;
     flex-basis: 50%;
     padding: 2rem;
@@ -22,11 +25,12 @@
 
 .about-me p {
     width: auto;
+    /* color: white; */
 }
 
 .contact-info {
     flex-basis: 50%;
-    background-color: rgba(219, 186, 103, 0.1);
+    background-color: var(--accent-color-light);
     display: block;
     padding: 2rem;
 }

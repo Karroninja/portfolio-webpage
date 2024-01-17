@@ -19,6 +19,11 @@ p {
     max-width: 64rem;
 }
 
+.proj-desc {
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
 h1,
 h2,
 h3,

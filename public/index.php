@@ -81,8 +81,8 @@
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
                     <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                    <span class="diamond filled">&#9830;</span>
+                    <span class="diamond">&#9830;</span>
                 </div>
             </div>
             <div class="skill-div">
@@ -435,7 +435,7 @@
                 </div>
                 <h1>Consult</h1>
                 <p class="technologies">PICO | Markdown | SASS/SCSS | JavaScript | PHP</p>
-                <p>Consult was the final project for the course "web design & usability" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
+                <p class="proj-desc">Consult was the final project for the course "web design & usability" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
             </a>
             <div class="btn-div">
                 <!-- <a href="\projects\consult/index.php" class="btn" role="button" target="_blank">SITE</a> -->
@@ -450,7 +450,7 @@
                 </div>
                 <h1>Movies</h1>
                 <p class="technologies">React | Html | CSS | API</p>
-                <p>This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
+                <p class="proj-desc">This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
             </a>
             <div class="btn-div">
                 <a href="\projects\movies/index.html" class="btn" role="button" target="_blank">SITE</a>
@@ -464,7 +464,7 @@
                 </div>
                 <h1>Carl Barks Moving Memory Game</h1>
                 <p class="technologies">HTML | CSS | JavaScript | jQuery</p>
-                <p>Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University. I was responsible for both conceptualizing and coding the game. Get set for a memory game where the cards are always on the move!</p>
+                <p class="proj-desc">Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University. I was responsible for both conceptualizing and coding the game. Get set for a memory game where the cards are always on the move!</p>
             </a>
             <div class="btn-div">
                 <a href="\projects\memorygame/game.html" class="btn" role="button" target="_blank">SITE</a>
@@ -479,7 +479,7 @@
                 </div>
                 <h1>Starcade</h1>
                 <p class="technologies">HTML | CSS | JavaScript | jQuery | PHP | AJAX</p>
-                <p>Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020. I had responsibility for the PHP backend development. Step into our arcade wonderland.</p>
+                <p class="proj-desc">Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020. I had responsibility for the PHP backend development. Step into our arcade wonderland.</p>
             </a>
             <div class="btn-div">
                 <a href="\projects\starcade/index.php" class="btn" role="button" target="_blank">SITE</a>
@@ -494,7 +494,7 @@
                 </div>
                 <h1>BMO</h1>
                 <p class="technologies">HTML | CSS | PHP | PDO | SQLite</p>
-                <p>BMO was the final project for the course "web technologies" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
+                <p class="proj-desc">BMO was the final project for the course "web technologies" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
             </a>
             <div class="btn-div">
                 <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php" class="btn" role="button" target="_blank">SITE</a>

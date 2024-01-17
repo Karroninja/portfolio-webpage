@@ -7,7 +7,7 @@
 }
 
 /*---- settings for mobile --- */
-@media (max-width: 950px) and (min-width: 768px) {
+@media (max-width: 1002px) and (min-width: 799px) {
     .projects .wrapper,
     .abilities .abilities-div .skills,
     .abilities .abilities-div .tools,
@@ -24,6 +24,12 @@
 
     .abilities .skill-div .lang-ex {
         font-size: unset;
+    }
+
+    /* ----- Projects ------ */
+    .projectdiv.starcade,
+    .projectdiv.movies {
+        margin: 0 0 auto auto;
     }
 }
 
@@ -59,6 +65,7 @@
         order: 21;
         margin: 0 auto !important;
         margin-bottom: 2em;
+        width: 500px;
     }
 
     .main--about-me {
@@ -115,8 +122,7 @@
     }
 
     /* ----- Projects ------ */
-    .projectdiv.carlbarks,
-    .projectdiv.bmo,
+    .projectdiv.starcade,
     .projectdiv.movies {
         margin: 0 0 auto auto;
     }
@@ -138,7 +144,48 @@
         font-size: 0.5em;
     }
 
+    .footer div {
+        width: 80px;
+        display: flex;
+        justify-content: end;
+        gap: 0.5em;
+    }
+
     .footer .fa-brands {
         margin-left: unset;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar .site-header {
+        padding: unset !important;
+    }
+
+    div.site-header .nav-toggle {
+        width: unset !important;
+    }
+
+    .article .main--me {
+        width: 100vw;
+    }
+}
+
+/*---- settings for smaller mobile --- */
+@media (max-width: 400px) {
+    p,
+    table td,
+    a {
+        font-size: 1em;
+    }
+
+    .abilities .diamond {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 400px) {
+    .abilities .diamond {
+        font-size: 1.2em;
     }
 }
