@@ -11,15 +11,3 @@ $('.about-me').mouseleave(function() {
         animation: "arrowout 1.5s forwards"
     })
 })
-
-$('.skills table tr').mouseover(function() {
-    $(this).find(".filled").css({
-        color: "var(--accent-color)"
-    })
-})
-
-$('.skills table tr').mouseleave(function() {
-    $(this).find(".filled").css({
-        color: "var(--alt-accent-color-blue)"
-    })
-})

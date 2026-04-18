@@ -4,10 +4,9 @@
 
 .navbar {
     width: 100vw;
-    padding-bottom: 2rem;
-    background-color: var(--nav-background);
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 1rem;
+    background-color: #17252a;
+    background-color: var(--nav-footer-background);
     clip-path: polygon(0% 0%,100% 0%,100% calc(100% - 3em),0% 100%);
     position: fixed;
     z-index: 1;
@@ -15,11 +14,17 @@
     transition: top 0.2s ease-in-out;
 }
 
+.navWrapper {
+    max-width: 67rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .navbar .site-header {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    padding-left: 2em;
 }
 
 .navbar .logo {
@@ -29,17 +34,18 @@
 
 .navbar img {
     /* margin-left: 1rem; */
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .normal-nav {
     flex-grow: 1;
+    padding-right: 1.5rem;
 }
 
 .navbar ul {
     display: flex;
-    flex-grow: 1;
     align-items: center;
+    justify-content: space-between;
     padding: 0;
     margin: 0;
 }
@@ -50,22 +56,15 @@
     height: 100%;
 }
 
-.navbar li a {
+.navbar a:not(.logo a) {
     text-decoration: none;
-    color: var(--alt-font-color);
+    color: var(--light-mint);
     height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1rem;
-    transition: background-color 1s ease, color 1s ease;
-    /* transition: filter 1s ease; */
+    padding-top: 1rem;
 }
 
 .navbar li a:hover {
     cursor: pointer;
-    color: var(--font-color);
 }
 
 div.site-header .nav-toggle {
@@ -87,27 +86,28 @@ div.site-header .nav-toggle {
 
 /*---- settings for navbar --- */
 @media (max-width: 767px) {
-    .navbar {
-        flex-direction: column;
-        justify-content: unset;
+    .navWrapper {
+        display: block;
     }
 
     div.site-header .nav-toggle {
         display: flex !important;
+        flex-grow: 0;
+        justify-content: center;
+    }
+
+    div.normal-nav {
+        padding-bottom: 2em;
     }
 
     .normal-nav ul {
         flex-direction: column;
         height: 0px;
+        overflow: hidden;
         transition: height 1s;
     }
 
     .navbar li {
         width: 100%;
     }
-
-    .navbar li a:hover {
-        color: var(--font-color);
-    }
 }
-

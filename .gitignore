@@ -3,31 +3,20 @@
 .DS_Store
 
 <<<<<<< HEAD
+# Ignore vendor etc
+.env
+vendor/
+composer.json
+composer.lock
+
+<<<<<<< HEAD
 # Ignore images, db, fontawesome, node-modules, packages etc
 .vscode/
 config/
 public/files/
 public/img/
 public/fontawesome/
-projects/consult/.vscode/
-public/projects/consult/assets/
-public/projects/consult/cache/
-public/projects/consult/config/
-public/projects/consult/content/docs/
-public/projects/consult/content/_meta.md
-public/projects/consult/content/404.md
-public/projects/consult/content/report.md
-public/projects/consult/themes/example/
-public/projects/consult/themes/js/
-public/projects/consult/themes/node_modules/
-public/projects/consult/themes/shared/
-public/projects/consult/themes/.stylelintrc.json
-public/projects/consult/themes/package.json
-public/projects/consult/themes/package-lock.json
-public/projects/consult/vendor/
-public/projects/consult/.htaccess
-public/projects/consult/composer.json
-public/projects/consult/composer.lock
+
 public/projects/memorygame/STIX2Text-Regular.otf
 public/projects/memorygame/desktop/
 public/projects/memorygame/data.js
@@ -36,10 +25,3 @@ public/projects/movies/images/
 public/projects/movies/js/react-dom.js
 public/projects/movies/js/react-dom.min.js
 public/projects/movies/js/react.min.js
-public/projects/movies/js/react.js
-public/projects/starcade/media/
-public/projects/starcade/config/
-public/projects/starcade/style/
-public/projects/starcade/script/
-public/projects/starcade/php/backupFile.json
-public/projects/starcade/php/databse.json

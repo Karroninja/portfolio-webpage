@@ -11,6 +11,11 @@
     gap: 0 6em;
 }
 
+.abilities-div h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
 .skills h2,
 .tools h2,
 .languages h2 {
@@ -36,15 +41,61 @@
 }
 
 .skill-div:hover .diamond {
-    margin: 1px;
+    margin: 0 1px;
+}
+
+.diamond-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    min-width: 20%;
 }
 
 .diamond {
-    font-size: 1.5em;
-    color: #d3d3d3;
     transition: margin 0.5s ease-in-out;
+    flex-shrink: 0; /* prevents diamonds from shrinking when margin is added */
 }
 
-.diamond.filled {
-    color: var(--font-color);
+.diamond::before {
+    content: '◇';
+    font-size: 1.5em;
+    color: var(--diamond-unfilled, #E6E6E6);
+}
+
+.diamond.filled::before {
+    content: '◆';
+    color: var(--diamond-filled, #ffad83ff);
+}
+
+/* Abilities expand/collapse */
+.skills-inner,
+.tools-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.skill-div.hidden-skill {
+    /* display: none; */
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+}
+
+.show-more-btn {
+    grid-column: span 3;
+    background: none;
+    border: 1px solid #ffad83ff;
+    color: #ffad83ff;
+    padding: 0.5em 1.5em;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 0.5em;
+    transition: background 0.2s ease;
+}
+
+.show-more-btn:hover {
+    background: #ffad8320;
 }

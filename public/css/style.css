@@ -8,8 +8,9 @@
 @import "./init.css";
 @import "./navbar.css";
 @import "./about.css";
-@import "./project.css";
 @import "./abilities.css";
+@import "./project.css";
+@import "./colab.css";
 @import "./footer.css";
 @import "./normalize.css";
 

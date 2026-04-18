@@ -15,22 +15,24 @@
 </head>
 <body>
 <nav class="navbar">
-    <div class="site-header">
-        <div class="logo">    
-            <a href="./index.php">
-                <img src="\img\kl-logo.svg" alt="Logo KL">
+    <div class="navWrapper">
+        <div class="site-header">
+            <div class="logo">
+                <a href="./index.php">
+                    <img src="\img\kl-logo.svg" alt="Logo KL">
+                </a>
+            </div>
+            <a id="nav-toggle" class="nav-toggle" role="button" aria-expanded="true">
+                <i id="toggler" class="fa fa-bars"></i>
+                <!-- <span class="sr-only">Toggle Menu</span> -->
             </a>
         </div>
-        <a id="nav-toggle" class="nav-toggle" role="button" aria-expanded="true"> 
-            <i id="toggler" class="fa fa-bars"></i>
-            <!-- <span class="sr-only">Toggle Menu</span> -->
-        </a>
-    </div>
-    <div class="normal-nav" role="navigation">
-        <ul>
-            <li><a href="./index.php">Home</a></li>
-            <li><a href="#abilities">Abilities</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
+        <div class="normal-nav" role="navigation">
+            <ul>
+                <a href="#abilities">Abilities</a>
+                <a href="#projects">Projects</a>
+                <a href="#collab">Collaborate?</a>
+            </ul>
+        </div>
     </div>
 </nav>

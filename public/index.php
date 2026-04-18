@@ -3,15 +3,16 @@
     $title = "Profile";
     include('../view/header.php');
 ?>
-<!-- <main class="main"> -->
+<!-- <main> -->
 <article class="article">
+    <div class="main--intro-me">
+        <h1>Web Designer & Developer</h1>
+        <h1 class="main--h1">Karoline Lindroos</h1>
+        <h1>Creating modern, responsive web experiences.</h1>
+    </div>
     <picture class="main--me">
-        <!-- <source media="(min-width: 767px)" srcset="img/jag.jpg"> -->
         <img src="img/jag.jpg" alt="image of me" class="main--me">
     </picture>
-    <h3 class="main--h3">Hello!</h3>
-    <h1 class="main--h1">I Am Karoline Lindroos</h1>
-    <p class="main--p">Welcome to my resume, I have a passion for web development.</p>
 </article>
 <section class="main--about-me">
     <div class="contact-info">
@@ -25,7 +26,7 @@
             <tr>
                 <td>Age</td>
                 <td>:</td>
-                <td>31</td>
+                <td>34</td>
             </tr>
             <tr>
                 <td>Nationality</td>
@@ -58,201 +59,211 @@
             <div class="skill-div">
                 <span>HTML 5</span>
                 <div class="diamond-div">
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>CSS 3</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Responsive Design</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&#9830;</span>
-                    <span class="diamond">&#9830;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>jQuery</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>JavaScript</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>PHP</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
-                <span>SASS / SCSS</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <span>JavaScript</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Interaction Design</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Git / Github</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
-                <span>PDO</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <span>Express.js</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
-                <span>JSON</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>SQL / SQLite</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>Node.js</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>Java</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>C#</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>C</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                </div>
-            </div>
-            <div class="skill-div">
-                <span>Markdown</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <span>SQL</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>React.js</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>SASS / SCSS</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>PDO</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>NoSQL</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Node.js</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Java</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>C#</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>C</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Markdown</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Python</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>npm</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
         </div>
@@ -260,132 +271,142 @@
             <h2>Tools</h2>
             <div class="skill-div">
                 <span>Wordpress</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>VS Code</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
-                <span>Macbook Air</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <span>Shopify</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Illustrator</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Mac Terminal</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Brackets</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Photoshop</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Adobe XD</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Cyberduck</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
-                <span>Pico</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <span>Google Cloud Platform</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Google Lighthouse</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Figma</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                </div>
+            </div>
+            <div class="skill-div">
+                <span>Pico</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>Indesign</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
         </div>
@@ -393,32 +414,32 @@
             <h2>Languages</h2>
             <div class="skill-div">
                 <span class="lang-ex">Swedish (moder tongue)</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span>English (fluent)</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
                 </div>
             </div>
             <div class="skill-div">
                 <span class="lang-ex">Norwegian (comprehend)</span>
-                <div>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond filled">&diams;</span>
-                    <span class="diamond">&diams;</span>
+                <div class="diamond-div">
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond filled"></span>
+                    <span class="diamond"></span>
+                    <span class="diamond"></span>
                 </div>
             </div>
         </div>
@@ -427,81 +448,151 @@
 <section class="projects" id="projects">
     <div class="wrapper">
         <h1 class="title">Projects</h1>
-        <div class="projectdiv consult">
-            <!-- <a href="\projects\consult/index.php" target="_blank"> -->
-            <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/" target="_blank">
-                <div class="projectimg">
-                    <img src="\img/consult.jpg" alt="Screenshot Consult">
+        <div class="projectdiv jma">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="projectimg">
+                        <img src="\img/jma.jpg" alt="Screenshot JMA">
+                        <div class="card-front-info">
+                            <h2>Digital gallery for the artist Jeanette Marie Adolfsson</h2>
+                            <p class="technologies">Vanilla JavaScript | Express | NoSQL | GCP</p>
+                        </div>
+                    </div>
                 </div>
-                <h1>Consult</h1>
-                <p class="technologies">PICO | Markdown | SASS/SCSS | JavaScript | PHP</p>
-                <p class="proj-desc">Consult was the final project for the course "web design & usability" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
-            </a>
-            <div class="btn-div">
-                <!-- <a href="\projects\consult/index.php" class="btn" role="button" target="_blank">SITE</a> -->
-                <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/design/me/kmom10/proj/" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/consult" class="btn" role="button" target="_blank">CODE</a>
+                <div class="card-back">
+                    <div class="card-back-info">
+                        <h2>Advanced website</h2>
+                        <p class="proj-desc">A freelance assignment for the photo artist Jeanette Marie Adolfsson, combines rococo elegance with mystery and feminine fabrics from her mom's studio. This development setup lays a solid foundation for potential future expansions, ensuring a seamless pathway for growth.</p>
+                        <a href="https://jma.klindroos.se" target="_blank">Site</a>
+                        <a href="https://github.com/Karroninja/jmakonst" target="_blank">Code</a>
+                    </div>
+                    <div class="card-back-img">
+                        <img src="\img/jma1.jpg" alt="Screenshot JMA workflow">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projectdiv straightace">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="projectimg">
+                        <img src="\img/straightace.png" alt="Screenshot Straight Ace workflow">
+                        <div class="card-front-info">
+                            <h2>Growth-driven website and identity for Straight Ace</h2>
+                            <p class="technologies">Shopify</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="card-back-info">
+                        <h2>Website and visual identity</h2>
+                        <p class="proj-desc">Straight Ace focuses on digital growth marketing and high-converting content, taking on projects with clear growth potential and building long-term success through selected collaborations.</p>
+                        <p class="proj-desc">The website strengthens the company's digital presence and supports its growth, while the visual identity offers clear graphic guidelines.</p>
+                        <a href="https://www.straightace.se/" target="_blank">Site</a>
+                    </div>
+                    <div class="card-back-img">
+                        <img src="\img/straightace1.jpg" alt="Screenshot Straight Ace">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="projectdiv movies">
-            <a href="\projects\movies/index.html" target="_blank">
-                <div class="projectimg">
-                    <img src="\img/movies.jpg" alt="Screenshot Consult">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="projectimg">
+                        <img src="\img/movies.jpg" alt="Screenshot Movies">
+                        <div class="card-front-info">
+                            <h2>Movies and soundtrack</h2>
+                            <p class="technologies">React | API</p>
+                        </div>
+                    </div>
                 </div>
-                <h1>Movies</h1>
-                <p class="technologies">React | Html | CSS | API</p>
-                <p class="proj-desc">This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
-            </a>
-            <div class="btn-div">
-                <a href="\projects\movies/index.html" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" class="btn" role="button" target="_blank">CODE</a>
+                <div class="card-back">
+                    <div class="card-back-info">
+                        <h2>React and API project</h2>
+                        <p class="proj-desc">This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
+                        <a href="\projects\movies/index.html" target="_blank">Site</a>
+                        <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" target="_blank">Code</a>
+                    </div>
+                    <div class="card-back-img">
+                        <img src="\img/movies.jpg" alt="Screenshot Movies">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="projectdiv carlbarks">
-            <a href="\projects\memorygame/game.html" target="_blank">
-                <div class="projectimg carlbarksimg">
-                    <img src="\img/movingmemory.jpg" alt="Screenshot moving memory game">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="projectimg">
+                        <img src="\img/movingmemory.jpg" alt="Screenshot moving memory game">
+                        <div class="card-front-info">
+                            <h2>Carl Barks Moving Memory Game</h2>
+                            <p class="technologies">jQuery</p>
+                        </div>
+                    </div>
                 </div>
-                <h1>Carl Barks Moving Memory Game</h1>
-                <p class="technologies">HTML | CSS | JavaScript | jQuery</p>
-                <p class="proj-desc">Carl Barks moving memory game was made during spring 2020. It was a part of a final web project for the course “programming for the web” at Malmö University. I was responsible for both conceptualizing and coding the game. Get set for a memory game where the cards are always on the move!</p>
-            </a>
-            <div class="btn-div">
-                <a href="\projects\memorygame/game.html" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/memorygame" class="btn" role="button" target="_blank">CODE</a>
+                <div class="card-back">
+                    <div class="card-back-info">
+                        <h2>Game project</h2>
+                        <p class="proj-desc">The Carl Barks moving memory game is built with HTML, CSS, and jQuery. Players can test their memory, track their performance on a leaderboard, and race against the clock to beat their best time. Stay sharp — the cards don't stay still, so remembering their positions is part of the challenge!</p>
+                        <a href="\projects\memorygame/game.html" target="_blank">Site</a>
+                        <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/memorygame" target="_blank">Code</a>
+                    </div>
+                    <div class="card-back-img">
+                        <img src="\img/movingmemory.jpg" alt="Screenshot Game project">
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- <hr> -->
-        <div class="projectdiv starcade">
-            <a href="\projects\starcade/index.php" target="_blank">
-                <div class="projectimg">
-                    <img src="\img/starcade.jpg" alt="Screenshot Starcade">
-                </div>
-                <h1>Starcade</h1>
-                <p class="technologies">HTML | CSS | JavaScript | jQuery | PHP | AJAX</p>
-                <p class="proj-desc">Starcade was the final webb project for the course “database-based publishing” at Malmö University during autumn 2020. I had responsibility for the PHP backend development. Step into our arcade wonderland.</p>
-            </a>
-            <div class="btn-div">
-                <a href="\projects\starcade/index.php" class="btn" role="button" target="_blank">SITE</a>
-                <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/starcade" class="btn" role="button" target="_blank">CODE</a>
+    </div>
+</section>
+<section class="collab" id="collab">
+    <div class="collab-inner wrapper">
+        <div class="collab-left">
+            <h1 class="title">Let's collaborate</h1>
+            <p>Have a project in mind, a job opportunity, or just want to say hi? Fill in the form and I'll get back to you as soon as I can.</p>
+            <div class="collab-detail">
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:hello@klindroos.se">hello@klindroos.se</a>
+            </div>
+            <div class="collab-detail">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/karoline-lindroos-38a424234/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="collab-detail">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/Karroninja/portfolio-webpage" target="_blank">GitHub</a>
             </div>
         </div>
-        <!-- <hr> -->
-        <div class="projectdiv bmo">
-            <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php" target="_blank">
-                <div class="projectimg">
-                    <img src="\img/bmo.jpg" alt="Screenshot BMO">
+        <div class="collab-right">
+            <form class="collab-form" id="collab-form" action="send-mail.php" method="POST">
+                <div id="collab-feedback" class="collab-feedback"></div>
+                <div class="field-row">
+                    <div class="field">
+                        <label for="collab-name">Name</label>
+                        <input type="text" id="collab-name" name="name" placeholder="e.g. Karoline Lindroos">
+                    </div>
+                    <div class="field">
+                        <label for="collab-email">Email</label>
+                        <input type="email" id="collab-email" name="email" placeholder="hello@example.com">
+                    </div>
                 </div>
-                <h1>BMO</h1>
-                <p class="technologies">HTML | CSS | PHP | PDO | SQLite</p>
-                <p class="proj-desc">BMO was the final project for the course "web technologies" at Blekinge Institute of Technology during autumn 2022. An independent web project.</p>
-            </a>
-            <div class="btn-div">
-                <a href="http://www.student.bth.se/~kalr22/dbwebb-kurser/webtec/me/kmom10/public/home.php" class="btn" role="button" target="_blank">SITE</a>
-                <!-- <button class="btn">
-                    <a href="#">CODE</a>
-                </button> -->
-            </div>
+                <div class="field">
+                    <label for="collab-subject">Subject</label>
+                    <select id="collab-subject" name="subject">
+                        <option value="">Select a topic...</option>
+                        <option>Freelance project</option>
+                        <option>Job opportunity</option>
+                        <option>Just saying hi</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="collab-message">Message</label>
+                    <textarea id="collab-message" name="message" placeholder="Tell me about your project or idea..."></textarea>
+                </div>
+                <button type="submit" class="btn collab-submit">Send message &#8594;</button>
+            </form>
         </div>
     </div>
 </section>

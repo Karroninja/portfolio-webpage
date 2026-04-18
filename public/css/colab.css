@@ -1,0 +1,151 @@
+/*
+ * Style for colab section
+ */
+.collab-inner {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+}
+
+.collab-left {
+    flex: 1;
+}
+
+.collab-left .title {
+    font-size: 2.5em;
+}
+
+.collab-left p {
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.collab-detail {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.collab-detail i {
+    width: 16px;
+}
+
+.collab-detail a {
+    text-decoration: none;
+}
+
+.collab-detail a:hover {
+    text-decoration: underline;
+}
+
+.collab-right {
+    flex: 1.2;
+}
+
+.collab-form {
+    border-radius: 8px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.collab-form label {
+    font-size: 0.85em;
+    /* color: #2b2b2b; */
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.collab-form .field-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.collab-form .field-row .field {
+    flex: 1;
+}
+
+.collab-form .field {
+    display: flex;
+    flex-direction: column;
+}
+
+.collab-form input,
+.collab-form textarea,
+.collab-form select {
+    background: #fff;
+    border: 1px solid #d0dbd8;
+    border-radius: 4px;
+    padding: 0.65rem 0.85rem;
+    font-size: 0.95em;
+    /* color: #17252a; */
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+.collab-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* .collab-form input:focus,
+.collab-form textarea:focus,
+.collab-form select:focus {
+    border-color: #ffad83;
+} */
+
+.collab-submit {
+    align-self: flex-start;
+    /* background: #2b2b2b; */
+    /* color: #f5fffa; */
+    border: none;
+    padding: 0.75rem 2rem;
+    transition: background 0.2s ease, color 0.2s ease;
+    width: unset;
+}
+
+/* .collab-submit:hover { */
+    /* background: #ffad83; */
+    /* color: #2b2b2b ; */
+/* } */
+
+.collab-feedback {
+    display: none;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.collab-feedback.success {
+    background: #e1f5ee;
+    color: #0f6e56;
+    display: block;
+}
+
+.collab-feedback.error {
+    background: #fcebeb;
+    color: #a32d2d;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .collab-inner {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .collab-right {
+        width: 100%;
+    }
+
+    .collab-form .field-row {
+        flex-direction: column;
+    }
+}

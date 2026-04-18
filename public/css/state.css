@@ -27,8 +27,8 @@
     }
 
     /* ----- Projects ------ */
-    .projectdiv.starcade,
-    .projectdiv.movies {
+    .projectdiv.movies
+    .projectdiv.bmo {
         margin: 0 0 auto auto;
     }
 }
@@ -46,26 +46,21 @@
     }
 
     .article {
-        display: flex;
         flex-direction: column;
         padding: 0;
         padding-top: 6rem;
     }
 
-    .article .main--h3 {
-        padding-left: 1rem;
-    }
-
-    .article .main--p {
-        padding: 1rem;
+    .article .main--intro-me {
+        width: 100%;
     }
 
     .article .main--me {
-        float: none;
-        order: 21;
         margin: 0 auto !important;
         margin-bottom: 2em;
-        width: 500px;
+        border: unset !important;
+        width: 100%;
+        max-width: 500px;
     }
 
     .main--about-me {
@@ -76,19 +71,8 @@
         font-size: 1em;
     }
 
-    .article h3 {
-        order: 1;
-    }
-
     .article h1 {
-        order: 11;
         text-align: center;
-    }
-
-    .article p {
-        order: 31;
-        text-align: center;
-        font-size: 1.1em;
     }
 
     .main--about-me {
@@ -99,7 +83,8 @@
     .abilities .abilities-div .skills,
     .abilities .abilities-div .tools,
     .abilities .abilities-div .languages {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        display: block;
         padding: unset;
     }
 
@@ -111,32 +96,52 @@
 
     .abilities .skill-div {
         padding: 0.1em 0;
+        overflow: hidden;
+        max-height: 100px; /* larger than any single row will ever be */
+        transition: max-height 0.5s ease, opacity 0.5s ease;
+        opacity: 1;
     }
 
     .abilities .skill-div .lang-ex {
         font-size: unset;
     }
 
-    .abilities .diamond {
-        font-size: 1.8em;
+    .abilities .diamond-div {
+        width: unset;
+    }
+
+    .skill-div:hover .diamond {
+        margin: 0px !important;
     }
 
     /* ----- Projects ------ */
-    .projectdiv.starcade,
-    .projectdiv.movies {
-        margin: 0 0 auto auto;
-    }
-
     .projects .wrapper {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
-    .projects .wrapper h1 {
-        grid-column: span 1;
+    div.projectdiv {
+        width: 100%;
+        /* height: 250px; */
     }
 
-    .projectdiv .projectimg {
-        height: auto;
+     .card-back {
+        height: 100%;
+        overflow: hidden; /* prevents content from pushing outside */
+    }
+
+    .card-back-info {
+        overflow-y: auto; /* scroll if text is too long rather than expanding */
+    }
+
+    .card-back-img {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .card-back-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; /* same as front so it doesn't stretch */
     }
 
     /* ----- Footer ------ */

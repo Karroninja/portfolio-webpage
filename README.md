@@ -1,6 +1,6 @@
 # Karoline Lindroos Portfolio
 
-This GitHub repository is intended solely to serve as a showcase, and therefore, it is not possible to use it for external purposes.
+This GitHub repository is intended solely to serve as a showcase.
 
 ## Folder Structure
 
