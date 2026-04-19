@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Karoline Lindroos">
-    <meta name="description" content="Karoline Lindroos Portfolio">
+    <title>Karoline Lindroos - Freelance Web Designer & Developer | Sweden</title>
+    <meta name="description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in responsive websites, Shopify, Wordpress, JavaScript and PHP.">
+    <meta property="og:title" content="Karoline Lindroos - Web Designer & Developer">
+    <meta property="og:description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in responsive websites, Shopify, Wordpress, JavaScript and PHP.">
+    <meta property="og:image" content="https://klindroos.se/img/jag.jpg">
+    <meta property="og:url" content="https://klindroos.se">
+    <meta property="og:type" content="website">
     <link rel="shortcut icon" href="\img\kl-logo-head.svg"/>
     <link rel="stylesheet" type="text/css" href="\css\style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet"> -->
-    <title><?=$title?></title>
+
+    <!-- Person Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Karoline Lindroos",
+        "jobTitle": "Web Designer & Developer",
+        "url": "https://klindroos.se",
+        "email": "hello@klindroos.se",
+        "nationality": "Swedish",
+        "sameAs": [
+        "https://www.linkedin.com/in/karoline-lindroos-38a424234/",
+        "https://github.com/Karroninja"
+        ]
+    }
+    </script>
 </head>
 <body>
 <nav class="navbar">

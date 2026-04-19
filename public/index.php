@@ -1,17 +1,14 @@
 <?php
     include('../config/config.php');
-    $title = "Profile";
     include('../view/header.php');
 ?>
 <!-- <main> -->
 <article class="article">
     <div class="main--intro-me">
-        <h1>Web Designer & Developer</h1>
-        <h1 class="main--h1">Karoline Lindroos</h1>
-        <h1>Creating modern, responsive web experiences.</h1>
+        <h1 main--h1>Karoline Lindroos - Web Designer & Developer</h1>
     </div>
     <picture class="main--me">
-        <img src="img/jag.jpg" alt="image of me" class="main--me">
+        <img src="img/jag.jpg" alt="Karoline Lindroos, freelance web designer & developer based in Sweden" class="main--me">
     </picture>
 </article>
 <section class="main--about-me">
@@ -42,9 +39,7 @@
     </div>
     <div class="about-me">
         <h1>About Me</h1>
-        <p>
-            I have good knowledge of front-end and back-end techniques. I am a person who likes to learn new things and expand my knowledge. I love structure and order and I love spending time on fixing little details.
-        </p>
+        <p>I'm a web designer and developer who loves the intersection of aesthetics and functionality. I enjoy the full process — from early design decisions to the final lines of code — and I bring the same level of care to every stage. I bring structure, curiosity, and a genuine care for quality to everything I work on.</p>
         <div id="arrowDiv">
             <span class="arrow">&#8594;</span>
             <a href="\files/resume-karoline-lindroos.pdf" class="btn" role="button" download>Download Resume</a>
@@ -452,7 +447,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/jma.jpg" alt="Screenshot JMA">
+                        <img src="\img/jma.jpg" alt="Digital gallery website for artist Jeanette Marie Adolfsson" loading="lazy">
                         <div class="card-front-info">
                             <h2>Digital gallery for the artist Jeanette Marie Adolfsson</h2>
                             <p class="technologies">Vanilla JavaScript | Express | NoSQL | GCP</p>
@@ -467,7 +462,7 @@
                         <a href="https://github.com/Karroninja/jmakonst" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/jma1.jpg" alt="Screenshot JMA workflow">
+                        <img src="\img/jma1.jpg" alt="Screenshot JMA workflow" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -476,7 +471,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/straightace.png" alt="Screenshot Straight Ace workflow">
+                        <img src="\img/straightace.png" alt="Growth-driven website and identity for Straight Ace" loading="lazy">
                         <div class="card-front-info">
                             <h2>Growth-driven website and identity for Straight Ace</h2>
                             <p class="technologies">Shopify</p>
@@ -491,7 +486,7 @@
                         <a href="https://www.straightace.se/" target="_blank">Site</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/straightace1.jpg" alt="Screenshot Straight Ace">
+                        <img src="\img/straightace1.jpg" alt="Straight Ace workflow" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -500,7 +495,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/movies.jpg" alt="Screenshot Movies">
+                        <img src="\img/movies.jpg" alt="Movies - React and API project" loading="lazy">
                         <div class="card-front-info">
                             <h2>Movies and soundtrack</h2>
                             <p class="technologies">React | API</p>
@@ -515,7 +510,7 @@
                         <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/movies.jpg" alt="Screenshot Movies">
+                        <img src="\img/movies.jpg" alt="Movies - React and API project" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -524,7 +519,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/movingmemory.jpg" alt="Screenshot moving memory game">
+                        <img src="\img/movingmemory.jpg" alt="Game project - Carl Barks Moving Memory Game" loading="lazy">
                         <div class="card-front-info">
                             <h2>Carl Barks Moving Memory Game</h2>
                             <p class="technologies">jQuery</p>
@@ -539,7 +534,7 @@
                         <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/memorygame" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/movingmemory.jpg" alt="Screenshot Game project">
+                        <img src="\img/movingmemory.jpg" alt="Carl Barks Moving Memory Game" loading="lazy">
                     </div>
                 </div>
             </div>
