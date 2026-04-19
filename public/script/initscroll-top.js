@@ -3,8 +3,10 @@
 function initScrollTop() {
     const isMobile = $(window).width() < 768;
 
-    $('#scroll-top').off('click.scrolltop');
+    $('#scroll-top').off('click.scrolltop touchend.scrolltop');
     $(window).off('scroll.scrolltop');
+
+    let isScrolling = false;
 
     if (isMobile) {
         $('#scroll-top').css('display', 'flex');
@@ -17,8 +19,13 @@ function initScrollTop() {
             }
         });
 
-        $('#scroll-top').on('click.scrolltop', function () {
-            $('html, body').animate({ scrollTop: 0 }, 500);
+        $('#scroll-top').on('click.scrolltop touchend.scrolltop', function (e) {
+            e.preventDefault();
+            if (isScrolling) return;
+            isScrolling = true;
+            $('html, body').animate({ scrollTop: 0 }, 500, function() {
+                isScrolling = false;
+            });
         });
 
     } else {

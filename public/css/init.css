@@ -84,16 +84,17 @@ section, article {
     z-index: 99;
     width: 2.8rem;
     height: 2.8rem;
-    border-radius: 50%;
-    border: 2px solid #f5fffa;
-    background-color: #17252a;
-    color: #f5fffa;
-    font-size: 1.5em;
+    background: none;
+    border: none;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease, background-color 0.2s ease;
     opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 0;
+}
+
+.scroll-top .fa-circle-chevron-up {
+    font-size: 2.8rem;
+    color: #17252a;
 }
 
 .scroll-top.visible {
