@@ -1,20 +1,27 @@
 "use strict";
 
-// When hamburger is clicked ...
-$('.nav-toggle').on("click", function() {
-    // Change hamburger menu from bars to cross.
-    let hamElementBars = $(this).find(".fa-bars");
-    if (hamElementBars.hasClass("fa-bars")) {
-        hamElementBars.toggleClass("fa-bars fa-times");
-        $(".normal-nav ul").css({ height: "170px" });
+// reusable function to close the nav
+function closeNav() {
+    $('.fa').removeClass('fa-times').addClass('fa-bars');
+    $('.normal-nav ul').css({ height: '0px' });
+}
+
+// hamburger toggle
+$('.nav-toggle').on('click', function () {
+    const $icon = $(this).find('.fa');
+    if ($icon.hasClass('fa-bars')) {
+        $icon.toggleClass('fa-bars fa-times');
+        $('.normal-nav ul').css({ height: '170px' });
     } else {
-        let hamElementCross = $(this).find(".fa-times");
-        if (hamElementCross.hasClass("fa-times")) {
-            hamElementCross.toggleClass("fa-times fa-bars");
-        }
-        $(".normal-nav ul").css({ height: "0px" });
+        closeNav();
     }
-})
+});
+
+// close nav and reset icon when a link is clicked
+$('.normal-nav a').on('click', function () {
+    closeNav();
+});
+
 
 /**
  * On mobile version,
@@ -31,20 +38,22 @@ $(window).scroll(function() {
 
 setInterval(() => {
     if (didScroll) {
-        // get the value of how much is scrolled, on top the value is 0
-        let st = $(this).scrollTop();
+        const st = $(window).scrollTop();
+
+        if (Math.abs(lastScrollTop - st) <= delta) {
+            didScroll = false;
+            return;
+        }
 
         if (st > lastScrollTop && st > navbarHeight) {
-            // Scroll down
+            // scrolling down
             $('.navbar').removeClass('nav-down').addClass('nav-up');
-            if ($('.fa').hasClass("fa-times")) {
-                $('.fa').toggleClass("fa-times fa-bars");
-                $(".normal-nav ul").css({ height: "0px" });
-            }
+            closeNav();
         } else {
-            // Scroll up
+            // scrolling up — always show navbar
             $('.navbar').removeClass('nav-up').addClass('nav-down');
         }
+
         didScroll = false;
         lastScrollTop = st;
     }
