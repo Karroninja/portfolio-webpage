@@ -8,11 +8,6 @@
 vendor/
 composer.json
 composer.lock
-data/
-public/counter.php
-public/.htaccess
-public/robots.txt
-public/sitemap.xml
 
 <<<<<<< HEAD
 # Ignore images, db, fontawesome, node-modules, packages etc
@@ -21,6 +16,13 @@ config/
 public/files/
 public/img/
 public/fontawesome/
+data/
+public/counter.php
+public/.htaccess
+public/robots.txt
+public/sitemap.xml
+
+view/
 
 public/projects/memorygame/STIX2Text-Regular.otf
 public/projects/memorygame/desktop/
