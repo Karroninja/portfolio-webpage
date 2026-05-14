@@ -8,6 +8,9 @@
 vendor/
 composer.json
 composer.lock
+.htaccess
+robots.txt
+sitemap.xml
 
 <<<<<<< HEAD
 # Ignore images, db, fontawesome, node-modules, packages etc
