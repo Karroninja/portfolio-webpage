@@ -7,6 +7,11 @@ require '../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..');
 $dotenv->load();
 
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    http_response_code(403);
+    die();
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name    = htmlspecialchars(trim($_POST['name'] ?? ''));
     $email   = htmlspecialchars(trim($_POST['email'] ?? ''));

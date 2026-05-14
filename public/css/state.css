@@ -15,10 +15,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .projects .wrapper h1,
-    .abilities .skills h2,
-    .abilities .tools h2,
-    .abilities .languages h2 {
+    .projects .wrapper h2,
+    .abilities .skills h3,
+    .abilities .tools h3,
+    .abilities .languages h3 {
         grid-column: span 2;
     }
 
@@ -73,6 +73,7 @@
 
     .article h1 {
         text-align: center;
+        font-size: 3em;
     }
 
     .main--about-me {

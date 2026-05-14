@@ -8,12 +8,12 @@
         <h1 main--h1>Karoline Lindroos - Web Designer & Developer</h1>
     </div>
     <picture class="main--me">
-        <img src="img/jag.jpg" alt="Karoline Lindroos, freelance web designer & developer based in Sweden" class="main--me">
+        <img src="img/jag.webp" alt="Karoline Lindroos, freelance web designer & developer based in Sweden" class="main--me">
     </picture>
 </article>
 <section class="main--about-me">
     <div class="contact-info">
-        <h1>Details</h1>
+        <h2>Details</h2>
         <table>
             <tr>
                 <td>Name</td>
@@ -38,7 +38,7 @@
         </table>
     </div>
     <div class="about-me">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <p>I'm a web designer and developer who loves the intersection of aesthetics and functionality. I enjoy the full process — from early design decisions to the final lines of code — and I bring the same level of care to every stage. I bring structure, curiosity, and a genuine care for quality to everything I work on.</p>
         <div id="arrowDiv">
             <span class="arrow">&#8594;</span>
@@ -48,9 +48,9 @@
 </section>
 <section class="abilities" id="abilities">
     <div class="wrapper abilities-div">
-        <h1 class="title">Abilities</h1>
+        <h2 class="title">Abilities</h2>
         <div class="skills">
-            <h2>Skills</h2>
+            <h3>Skills</h3>
             <div class="skill-div">
                 <span>HTML 5</span>
                 <div class="diamond-div">
@@ -263,7 +263,7 @@
             </div>
         </div>
         <div class="tools">
-            <h2>Tools</h2>
+            <h3>Tools</h3>
             <div class="skill-div">
                 <span>Wordpress</span>
                 <div class="diamond-div">
@@ -406,7 +406,7 @@
             </div>
         </div>
         <div class="languages">
-            <h2>Languages</h2>
+            <h3>Languages</h3>
             <div class="skill-div">
                 <span class="lang-ex">Swedish (moder tongue)</span>
                 <div class="diamond-div">
@@ -442,12 +442,12 @@
 </section>
 <section class="projects" id="projects">
     <div class="wrapper">
-        <h1 class="title">Projects</h1>
+        <h2 class="title">Projects</h2>
         <div class="projectdiv jma">
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/jma.jpg" alt="Digital gallery website for artist Jeanette Marie Adolfsson" loading="lazy">
+                        <img src="\img/jma.webp" alt="Digital gallery website for artist Jeanette Marie Adolfsson" loading="lazy">
                         <div class="card-front-info">
                             <h2>Digital gallery for the artist Jeanette Marie Adolfsson</h2>
                             <p class="technologies">Vanilla JavaScript | Express | NoSQL | GCP</p>
@@ -456,13 +456,13 @@
                 </div>
                 <div class="card-back">
                     <div class="card-back-info">
-                        <h2>Advanced website</h2>
+                        <h3>Advanced website</h3>
                         <p class="proj-desc">A freelance assignment for the photo artist Jeanette Marie Adolfsson, combines rococo elegance with mystery and feminine fabrics from her mom's studio. This development setup lays a solid foundation for potential future expansions, ensuring a seamless pathway for growth.</p>
                         <a href="https://jma.klindroos.se" target="_blank">Site</a>
                         <a href="https://github.com/Karroninja/jmakonst" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/jma1.jpg" alt="Screenshot JMA workflow" loading="lazy">
+                        <img src="\img/jma1.webp" alt="Screenshot JMA workflow" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -473,20 +473,20 @@
                     <div class="projectimg">
                         <img src="\img/straightace.png" alt="Growth-driven website and identity for Straight Ace" loading="lazy">
                         <div class="card-front-info">
-                            <h2>Growth-driven website and identity for Straight Ace</h2>
+                            <h3>Growth-driven website and identity for Straight Ace</h3>
                             <p class="technologies">Shopify</p>
                         </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-back-info">
-                        <h2>Website and visual identity</h2>
+                        <h3>Website and visual identity</h3>
                         <p class="proj-desc">Straight Ace focuses on digital growth marketing and high-converting content, taking on projects with clear growth potential and building long-term success through selected collaborations.</p>
                         <p class="proj-desc">The website strengthens the company's digital presence and supports its growth, while the visual identity offers clear graphic guidelines.</p>
                         <a href="https://www.straightace.se/" target="_blank">Site</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/straightace1.jpg" alt="Straight Ace workflow" loading="lazy">
+                        <img src="\img/straightace1.webp" alt="Straight Ace workflow" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -495,22 +495,22 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/movies.jpg" alt="Movies - React and API project" loading="lazy">
+                        <img src="\img/movies.webp" alt="Movies - React and API project" loading="lazy">
                         <div class="card-front-info">
-                            <h2>Movies and soundtrack</h2>
+                            <h3>Movies and soundtrack</h3>
                             <p class="technologies">React | API</p>
                         </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-back-info">
-                        <h2>React and API project</h2>
+                        <h3>React and API project</h3>
                         <p class="proj-desc">This project is created using React, incorporating data from both the Open Movie Database (OMDb) API and the Spotify API. Users can explore movie information sourced from OMDb and hook up with Spotify for a more fun experience, if the movie album exists on Spotify.</p>
                         <a href="\projects\movies/index.html" target="_blank">Site</a>
                         <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/movies" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/movies.jpg" alt="Movies - React and API project" loading="lazy">
+                        <img src="\img/movies.webp" alt="Movies - React and API project" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -519,22 +519,22 @@
             <div class="card-inner">
                 <div class="card-front">
                     <div class="projectimg">
-                        <img src="\img/movingmemory.jpg" alt="Game project - Carl Barks Moving Memory Game" loading="lazy">
+                        <img src="\img/movingmemory.webp" alt="Game project - Carl Barks Moving Memory Game" loading="lazy">
                         <div class="card-front-info">
-                            <h2>Carl Barks Moving Memory Game</h2>
+                            <h3>Carl Barks Moving Memory Game</h3>
                             <p class="technologies">jQuery</p>
                         </div>
                     </div>
                 </div>
                 <div class="card-back">
                     <div class="card-back-info">
-                        <h2>Game project</h2>
+                        <h3>Game project</h3>
                         <p class="proj-desc">The Carl Barks moving memory game is built with HTML, CSS, and jQuery. Players can test their memory, track their performance on a leaderboard, and race against the clock to beat their best time. Stay sharp — the cards don't stay still, so remembering their positions is part of the challenge!</p>
                         <a href="\projects\memorygame/game.html" target="_blank">Site</a>
                         <a href="https://github.com/Karroninja/portfolio-webpage/tree/main/public/projects/memorygame" target="_blank">Code</a>
                     </div>
                     <div class="card-back-img">
-                        <img src="\img/movingmemory.jpg" alt="Carl Barks Moving Memory Game" loading="lazy">
+                        <img src="\img/movingmemory.webp" alt="Carl Barks Moving Memory Game" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -544,7 +544,7 @@
 <section class="collab" id="collab">
     <div class="collab-inner wrapper">
         <div class="collab-left">
-            <h1 class="title">Let's collaborate</h1>
+            <h2 class="title">Let's collaborate</h2>
             <p>Have a project in mind, a job opportunity, or just want to say hi? Fill in the form and I'll get back to you as soon as I can.</p>
             <div class="collab-detail">
                 <i class="fa fa-envelope"></i>

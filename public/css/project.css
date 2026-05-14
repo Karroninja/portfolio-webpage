@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.projects .wrapper h1.title {
+.projects .wrapper h2.title {
     width: 100%;
     text-align: center;
     font-size: 2.5em;
@@ -100,7 +100,7 @@
     flex-direction: column;
 }
 
-.card-back-info h2 {
+.card-back-info h3 {
     margin: 0;
     font-size: 1.2em;
 }

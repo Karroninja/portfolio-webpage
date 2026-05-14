@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /files/
+
+Sitemap: https://klindroos.se/sitemap.xml

@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Karoline Lindroos">
     <title>Karoline Lindroos - Freelance Web Designer & Developer | Sweden</title>
-    <meta name="description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in responsive websites, Shopify, Wordpress, JavaScript and PHP.">
+    <meta name="description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in static and responsive websites, Shopify, Wordpress, JavaScript and PHP.">
     <meta property="og:title" content="Karoline Lindroos - Web Designer & Developer">
-    <meta property="og:description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in responsive websites, Shopify, Wordpress, JavaScript and PHP.">
-    <meta property="og:image" content="https://klindroos.se/img/jag.jpg">
+    <meta property="og:description" content="Karoline Lindroos is a Swedish freelance web designer and developer specializing in static and responsive websites, Shopify, Wordpress, JavaScript and PHP.">
+    <meta property="og:image" content="https://klindroos.se/img/jag.webp">
     <meta property="og:url" content="https://klindroos.se">
     <meta property="og:type" content="website">
     <link rel="shortcut icon" href="\img\kl-logo-head.svg"/>
